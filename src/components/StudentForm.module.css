@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: system-ui, sans-serif;
+}
+
+.input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.form button[type='submit'] {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2e7d32;
+  color: #ffffff;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.form button[type='submit']:hover {
+  background-color: #276029;
+}
